@@ -19,7 +19,7 @@ export default function Services() {
               <Num n={i + 1} />
               <h2 className={`text-2xl font-medium md:text-3xl ${INKB} ${DISPLAY}`}>{d.title}</h2>
               <p className="leading-relaxed text-[#6E6E6E]">{d.desc}</p>
-              <Link href={`${BASE}/contact`} className={`inline-flex items-center gap-1 font-semibold ${OX} underline underline-offset-4 hover:no-underline`}>
+              <Link href={`${BASE}/contact#book`} className={`inline-flex items-center gap-1 font-semibold ${OX} underline underline-offset-4 hover:no-underline`}>
                 {t.misc.bookWith} <ArrowUpRight className="h-4 w-4" />
               </Link>
             </div>

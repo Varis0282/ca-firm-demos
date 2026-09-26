@@ -20,7 +20,7 @@ export default function Team() {
             ))}
           </div>
           <FadeIn className="mt-12 text-center">
-            <Link href={`${BASE}/contact`} className="rounded-xl bg-gradient-to-r from-[#4338CA] to-[#6D28D9] px-8 py-3.5 font-bold text-white shadow-lg shadow-indigo-500/30">
+            <Link href={`${BASE}/contact#book`} className="rounded-xl bg-gradient-to-r from-[#4338CA] to-[#6D28D9] px-8 py-3.5 font-bold text-white shadow-lg shadow-indigo-500/30">
               {t.nav.book} →
             </Link>
           </FadeIn>

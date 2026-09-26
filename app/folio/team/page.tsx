@@ -15,7 +15,7 @@ export default function Team() {
           <TeamRow key={i} i={i} detailed />
         ))}
         <div className="mt-12">
-          <Link href={`${BASE}/contact`} className="inline-block bg-[#7C2D3E] px-8 py-4 font-semibold text-white transition-colors hover:bg-[#5E2230]">
+          <Link href={`${BASE}/contact#book`} className="inline-block bg-[#7C2D3E] px-8 py-4 font-semibold text-white transition-colors hover:bg-[#5E2230]">
             {t.nav.book} →
           </Link>
         </div>

@@ -26,7 +26,7 @@ export default function Services() {
                   <h2 className={`text-xl font-bold ${LIGHT}`}>{d.title}</h2>
                   <p className="mt-2 max-w-2xl text-sm text-[#8A96A3]">{d.desc}</p>
                 </div>
-                <Link href={`${BASE}/contact`} className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-[#8FB6D9] hover:underline">
+                <Link href={`${BASE}/contact#book`} className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-[#8FB6D9] hover:underline">
                   {t.misc.bookWith} <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>

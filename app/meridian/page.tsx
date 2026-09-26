@@ -30,7 +30,7 @@ export default function Home() {
               {t.hero.sub}
             </motion.p>
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="mt-8 flex flex-wrap gap-4">
-              <Link href={`${BASE}/contact`} className="rounded-xl bg-gradient-to-r from-[#4338CA] to-[#6D28D9] px-7 py-3.5 font-bold text-white shadow-lg shadow-indigo-500/30 transition-all hover:shadow-indigo-500/50">
+              <Link href={`${BASE}/contact#book`} className="rounded-xl bg-gradient-to-r from-[#4338CA] to-[#6D28D9] px-7 py-3.5 font-bold text-white shadow-lg shadow-indigo-500/30 transition-all hover:shadow-indigo-500/50">
                 {t.hero.cta1}
               </Link>
               <a href={`tel:${firm.phoneRaw}`} className="flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-7 py-3.5 font-bold text-slate-700 transition-colors hover:border-[#4338CA] hover:text-[#4338CA]">

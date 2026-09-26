@@ -25,7 +25,7 @@ export default function Services() {
                   <h2 className={`mt-1 text-xl font-bold ${TEAL} ${SERIF}`}>{d.title}</h2>
                   <p className="mt-2 max-w-2xl text-slate-600">{d.desc}</p>
                 </div>
-                <Link href={`${BASE}/contact`} className="justify-self-start rounded-md border-2 border-[#155263] px-5 py-2 text-sm font-bold text-[#155263] transition-colors hover:bg-[#155263] hover:text-white sm:justify-self-end">
+                <Link href={`${BASE}/contact#book`} className="justify-self-start rounded-md border-2 border-[#155263] px-5 py-2 text-sm font-bold text-[#155263] transition-colors hover:bg-[#155263] hover:text-white sm:justify-self-end">
                   {t.misc.bookWith} →
                 </Link>
               </div>

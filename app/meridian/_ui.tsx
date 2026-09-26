@@ -77,7 +77,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-xs text-slate-400 hover:text-slate-600">← All demos</Link>
           <LangToggle className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600 hover:border-[#4338CA] hover:text-[#4338CA]" />
-          <Link href={`${BASE}/contact`} className="rounded-xl bg-gradient-to-r from-[#4338CA] to-[#6D28D9] px-5 py-2.5 font-semibold text-white shadow-lg shadow-indigo-500/30 transition-all hover:shadow-indigo-500/50">
+          <Link href={`${BASE}/contact#book`} className="rounded-xl bg-gradient-to-r from-[#4338CA] to-[#6D28D9] px-5 py-2.5 font-semibold text-white shadow-lg shadow-indigo-500/30 transition-all hover:shadow-indigo-500/50">
             {t.nav.book}
           </Link>
         </nav>
@@ -94,7 +94,7 @@ export function Nav() {
           ))}
           <div className="mt-3 flex items-center justify-between">
             <LangToggle className="rounded-full border border-slate-200 px-3 py-1 text-xs font-semibold" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="rounded-xl bg-[#4338CA] px-5 py-2.5 font-semibold text-white">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="rounded-xl bg-[#4338CA] px-5 py-2.5 font-semibold text-white">
               {t.nav.book}
             </Link>
           </div>
@@ -249,7 +249,7 @@ export function CTABand() {
         <h2 className="relative text-3xl font-bold md:text-4xl">{t.sections.ctaTitle}</h2>
         <p className="relative mt-3 text-indigo-200">{t.sections.ctaSub}</p>
         <div className="relative mt-8 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="rounded-xl bg-white px-8 py-3.5 font-bold text-[#4338CA] shadow-lg transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-xl bg-white px-8 py-3.5 font-bold text-[#4338CA] shadow-lg transition-transform hover:scale-105">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${firm.phoneRaw}`} className="flex items-center gap-2 rounded-xl border border-white/50 px-8 py-3.5 font-bold text-white transition-colors hover:bg-white/10">

@@ -18,7 +18,7 @@ export default function Team() {
             ))}
           </div>
           <div className="mt-12 text-center">
-            <Link href={`${BASE}/contact`} className="rounded-full bg-[#D9A441] px-8 py-3.5 font-extrabold text-white shadow-lg transition-transform hover:scale-105">
+            <Link href={`${BASE}/contact#book`} className="rounded-full bg-[#D9A441] px-8 py-3.5 font-extrabold text-white shadow-lg transition-transform hover:scale-105">
               {t.nav.book} →
             </Link>
           </div>

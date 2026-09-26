@@ -54,7 +54,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-xs normal-case tracking-normal text-[#5C6B7A] hover:text-[#8A96A3]">← All demos</Link>
           <LangToggle className="border border-[#2A313B] px-3 py-1 text-xs font-semibold text-[#8A96A3] hover:border-[#8FB6D9] hover:text-[#8FB6D9]" />
-          <Link href={`${BASE}/contact`} className="border border-[#8FB6D9] px-5 py-2.5 font-semibold text-[#8FB6D9] transition-colors hover:bg-[#8FB6D9] hover:text-[#14171C]">
+          <Link href={`${BASE}/contact#book`} className="border border-[#8FB6D9] px-5 py-2.5 font-semibold text-[#8FB6D9] transition-colors hover:bg-[#8FB6D9] hover:text-[#14171C]">
             {t.nav.book}
           </Link>
         </nav>
@@ -71,7 +71,7 @@ export function Nav() {
           ))}
           <div className="mt-3 flex items-center justify-between">
             <LangToggle className="border border-[#2A313B] px-3 py-1 text-xs font-semibold text-[#8A96A3]" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="border border-[#8FB6D9] px-5 py-2.5 font-semibold text-[#8FB6D9]">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="border border-[#8FB6D9] px-5 py-2.5 font-semibold text-[#8FB6D9]">
               {t.nav.book}
             </Link>
           </div>
@@ -221,7 +221,7 @@ export function CTABand() {
           <p className="mt-3 text-[#8A96A3]">{t.sections.ctaSub}</p>
         </div>
         <div className="mt-8 flex shrink-0 flex-wrap gap-4 md:mt-0">
-          <Link href={`${BASE}/contact`} className="bg-[#8FB6D9] px-8 py-3.5 font-bold text-[#14171C] transition-colors hover:bg-[#A9C8E4]">
+          <Link href={`${BASE}/contact#book`} className="bg-[#8FB6D9] px-8 py-3.5 font-bold text-[#14171C] transition-colors hover:bg-[#A9C8E4]">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${firm.phoneRaw}`} className={`flex items-center gap-2 border ${HAIR} px-8 py-3.5 font-bold ${LIGHT} transition-colors hover:border-[#8FB6D9]`}>

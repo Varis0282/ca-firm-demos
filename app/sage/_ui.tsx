@@ -57,7 +57,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-xs font-semibold text-[#9AA396] hover:text-[#5F7F6A]">← All demos</Link>
           <LangToggle className="rounded-full border-2 border-[#5F7F6A]/30 px-3 py-1 text-xs font-bold text-[#5F7F6A] hover:border-[#5F7F6A]" />
-          <Link href={`${BASE}/contact`} className="rounded-full bg-[#D9A441] px-6 py-2.5 font-extrabold text-white shadow-md shadow-amber-600/20 transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-[#D9A441] px-6 py-2.5 font-extrabold text-white shadow-md shadow-amber-600/20 transition-transform hover:scale-105">
             {t.nav.book}
           </Link>
         </nav>
@@ -74,7 +74,7 @@ export function Nav() {
           ))}
           <div className="mt-3 flex items-center justify-between">
             <LangToggle className="rounded-full border-2 border-[#5F7F6A]/30 px-3 py-1 text-xs font-bold text-[#5F7F6A]" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="rounded-full bg-[#D9A441] px-6 py-2.5 font-extrabold text-white">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="rounded-full bg-[#D9A441] px-6 py-2.5 font-extrabold text-white">
               {t.nav.book}
             </Link>
           </div>
@@ -233,7 +233,7 @@ export function CTABand() {
         <h2 className="text-3xl font-extrabold md:text-4xl">{t.sections.ctaTitle}</h2>
         <p className="mt-3 text-[#DCE5DA]">{t.sections.ctaSub}</p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="rounded-full bg-[#D9A441] px-8 py-3.5 font-extrabold text-white shadow-lg transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-[#D9A441] px-8 py-3.5 font-extrabold text-white shadow-lg transition-transform hover:scale-105">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${firm.phoneRaw}`} className="flex items-center gap-2 rounded-full border-2 border-[#FAF6EF]/60 px-8 py-3.5 font-extrabold text-[#FAF6EF] transition-colors hover:bg-white/10">

@@ -14,7 +14,7 @@ export default function Contact() {
       <PageHero kicker={t.nav.contact} title={b.title} sub={b.sub} />
       <section className="mx-auto max-w-6xl px-4 pb-20">
         <div className="grid gap-12 lg:grid-cols-5">
-          <div className="lg:col-span-3">
+          <div id="book" className="scroll-mt-28 lg:col-span-3">
             <BookingForm styles={bookingStyles} />
           </div>
           <div className="space-y-8 lg:col-span-2">

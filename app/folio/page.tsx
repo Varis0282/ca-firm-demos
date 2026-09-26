@@ -20,7 +20,7 @@ export default function Home() {
         <div className="mt-10 grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
           <p className="max-w-xl text-lg leading-relaxed text-[#6E6E6E]">{t.hero.sub}</p>
           <div className="flex flex-wrap gap-4">
-            <Link href={`${BASE}/contact`} className="bg-[#7C2D3E] px-8 py-4 font-semibold text-white transition-colors hover:bg-[#5E2230]">
+            <Link href={`${BASE}/contact#book`} className="bg-[#7C2D3E] px-8 py-4 font-semibold text-white transition-colors hover:bg-[#5E2230]">
               {t.hero.cta1}
             </Link>
             <a href={`tel:${firm.phoneRaw}`} className="flex items-center gap-2 border-2 border-[#111111] px-8 py-4 font-semibold text-[#111111] transition-colors hover:bg-[#111111] hover:text-white">
